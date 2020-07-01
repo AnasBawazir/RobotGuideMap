@@ -1,0 +1,78 @@
+*{
+
+}
+
+body{
+    background-color: #455a64 !important;
+    text-align: center !important;
+
+}
+.container{
+    border: 2px solid white;
+}
+img{
+    margin: auto;
+}
+h3{
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    margin: 45px auto;
+    color: white;
+    font-size: 3em;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+}
+h6{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin: 25px 0 10px 0 !important;
+    letter-spacing: 0.05em;
+    font-size: 150%;
+}
+
+.middle{
+    display: block;
+    text-align: center;
+}
+
+.button{
+    border-radius: 80%;
+    background-color: #03a9f4;
+    color: white;
+    border: none;
+    outline: 2px;
+    padding: 20px;
+    margin: 0.5%;
+    font-size: 150%;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    display: inline;
+    box-shadow: 3px 3px 7px #333;
+}
+
+.footer{
+    margin:0;
+    color:white;
+    float: bottom !important;
+}
+.button:hover {
+    background-color: #0082e6;
+    color: white;
+    transform: scale(1.1);
+}
+.button1 svg{
+    transform: rotate(-90deg);
+}
+.button2 svg{
+    transform: rotate(-180deg);
+}
+
+.button4 svg{
+    transform: rotate(0deg);
+}
+.move {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    margin-top: 5%;
+    letter-spacing: 0.1em;
+}
