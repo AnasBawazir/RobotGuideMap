@@ -9,15 +9,11 @@ require "dbInfo.php";
 }*/
 
     $btnDir=$_POST['direction'];
-    $binDis=$_POST['distance'];
-    if ($_POST['distance'] >= 1){
-        $query= "INSERT INTO `movement` ( `distance`, `direction`) VALUES ( '$binDis','$btnDir' )";
+    $btnDis=$_POST['distance'];
+        $query= "INSERT INTO `movement` ( `distance`, `direction`) VALUES ( '$btnDis','$btnDir' )";
         $connection->query($query);
         print_r($_POST["distance"]."m ".$_POST["direction"]);
         $connection->close();
-    }
-    else {
-        echo "please enter a distance to move";
 
-    }
+
 

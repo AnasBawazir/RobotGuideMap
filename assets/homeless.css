@@ -1,19 +1,22 @@
-*{
+* {
 
 }
 
-body{
+body {
     background-color: #455a64 !important;
     text-align: center !important;
 
 }
-.container{
+
+.container {
     border: 2px solid white;
 }
-img{
+
+img {
     margin: auto;
 }
-h3{
+
+h3 {
     font-family: 'Lato', sans-serif;
     width: 100%;
     margin: 45px auto;
@@ -22,7 +25,8 @@ h3{
     font-weight: 300;
     letter-spacing: 0.1em;
 }
-h6{
+
+h6 {
     font-family: 'Lato', sans-serif;
     color: white;
     margin: 25px 0 10px 0 !important;
@@ -30,12 +34,12 @@ h6{
     font-size: 150%;
 }
 
-.middle{
+.middle {
     display: block;
     text-align: center;
 }
 
-.button{
+.button {
     border-radius: 80%;
     background-color: #03a9f4;
     color: white;
@@ -50,29 +54,51 @@ h6{
     box-shadow: 3px 3px 7px #333;
 }
 
-.footer{
-    margin:0;
-    color:white;
+.footer {
+    margin: 0;
+    color: white;
     float: bottom !important;
 }
+
 .button:hover {
     background-color: #0082e6;
     color: white;
     transform: scale(1.1);
 }
-.button1 svg{
+
+.button1 svg {
     transform: rotate(-90deg);
 }
-.button2 svg{
+
+.button2 svg {
     transform: rotate(-180deg);
 }
 
-.button4 svg{
+.button4 svg {
     transform: rotate(0deg);
 }
+
 .move {
     color: white;
     font-family: 'Lato', sans-serif;
     margin-top: 5%;
+    margin-bottom: 0;
     letter-spacing: 0.1em;
+}
+
+.btn-map {
+!important;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    margin-top: 5%;
+    margin-bottom: 0;
+    letter-spacing: 0.1em;
+    background-color: #03a9f4;
+
+}
+
+#myCanvas {
+    margin-top: 3%;
+    display: none;
+
 }
