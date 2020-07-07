@@ -45,13 +45,22 @@
                 </svg>
             </button>
         </section>
-        <div class="move"> Guidance</div>
+        <div class="move" id="guidance"> Guidance</div>
         <div class="move" id="txtMove"></div>
         <button class=" btn btn-primary btn-map" onclick="getMoves()"> Map view</button>
 
+        <div class="move" id="printMoves"></div>
+        <section>
+            <canvas id="myCanvas" width="301px" height="301px" style="border:2px solid #ffffff"> Your browser does not
+                support the HTML canvas tag
+            </canvas>
+        </section>
+        <button class=" btn btn-primary btn-map" id="clearing" onclick="clearCanvas()"> Clear</button>
+        <form action="assets/guidanceTable.php" target="_self" method="post">
+            <button class=" btn btn-primary btn-map" id="history" type="submit" name="moves" value="50"> Guide History
+            </button>
+        </form>
     </div>
-    <div class="move" id="printMoves"></div>
-    <canvas id="myCanvas" width="301px" height="301px" style="border:2px solid #ffffff">  Your browser does not support the HTML canvas tag </canvas>
 
     <div class="footer">
         <p>By Anas Bawazir © </p>

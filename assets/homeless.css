@@ -81,24 +81,34 @@ h6 {
 .move {
     color: white;
     font-family: 'Lato', sans-serif;
-    margin-top: 5%;
+    margin-top: 15px;
     margin-bottom: 0;
     letter-spacing: 0.1em;
 }
+
 
 .btn-map {
 !important;
     color: white;
     font-family: 'Lato', sans-serif;
-    margin-top: 5%;
-    margin-bottom: 0;
+    margin: 5%;
     letter-spacing: 0.1em;
     background-color: #03a9f4;
+    display: block;
+    text-align: center;
+}
 
+#clearing {
+    display: none;
+}
+
+#history {
+    display: none;
 }
 
 #myCanvas {
-    margin-top: 3%;
+!important;
+    margin: 3%;
     display: none;
 
 }
